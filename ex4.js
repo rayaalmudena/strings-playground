@@ -6,7 +6,7 @@ let palabraSecreta = "arepa";
 let i = 0;
 
 while (!encontrado && i < palabraSecreta.length) {
-    encontrado = (palabraSecreta[i] != letraBuscada)
+    encontrado = (palabraSecreta[i] == letraBuscada);
     i++;
 }
 
